@@ -1,6 +1,6 @@
---- SWITCH/BBS_BUK.bbs	2022-12-13 02:28:29.000000000 +0100
-+++ PC/BBS_BUK.bbs	2022-09-22 21:50:57.000000000 +0200
-@@ -1,7003 +1,6901 @@
+--- PC/BBS_BUK.bbs	2022-09-22 21:50:57.000000000 +0200
++++ SWITCH/BBS_BUK.bbs	2022-12-13 02:28:29.000000000 +0100
+@@ -1,6901 +1,7003 @@
  beginSubroutine: s32'PreInit'
    charaName: s16'buk'
    endSubroutine: 
@@ -546,108 +546,108 @@
      SkillRecipe_eKey: 16, 3
      SkillRecipe_eKey: 0, 75
      endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'MASwingA'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirMBAttackA'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Armball'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirMBAttackB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'MASwingB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirMBAttackB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'MASwingC'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirMBAttackC'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Okashikousen'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirKamehameha'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Zetsumetsu'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Pearlflash'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Zetsumetsu'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Pearlflash'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'EarthBreak'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirEarthBreak'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'MASwingA'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirMBAttackA'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Armball'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirMBAttackB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'MASwingB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirMBAttackB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'MASwingC'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirMBAttackC'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Okashikousen'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirKamehameha'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Zetsumetsu'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Pearlflash'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Zetsumetsu'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Pearlflash'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'EarthBreak'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirEarthBreak'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
    registerMove: s32'CmnNeutral'
    registerMove: s32'CmnStandForce'
    registerMove: s32'CmnFWalk'

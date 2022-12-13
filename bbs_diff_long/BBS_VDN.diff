@@ -1,6 +1,6 @@
---- SWITCH/BBS_VDN.bbs	2022-12-13 02:28:37.000000000 +0100
-+++ PC/BBS_VDN.bbs	2022-09-22 21:51:03.000000000 +0200
-@@ -1,9175 +1,9094 @@
+--- PC/BBS_VDN.bbs	2022-09-22 21:51:03.000000000 +0200
++++ SWITCH/BBS_VDN.bbs	2022-12-13 02:28:37.000000000 +0100
+@@ -1,9094 +1,9175 @@
  beginSubroutine: s32'PreInit'
    charaName: s16'vdn'
    endSubroutine: 
@@ -805,87 +805,87 @@
      addMoveFlag: 136
      assistSlot: (ASSIST_C)
      endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Vrush_A1'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirVrush_A1'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'MoonsaultB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirMoonsaultB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'SteinerB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirSteinerB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'SteinerC'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirSteinerC'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Vrush_Muteki'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirSteinerA'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Rstorm'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Gsaiyaman'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Jrush'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Vrush_A1'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirVrush_A1'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'MoonsaultB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirMoonsaultB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'SteinerB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirSteinerB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'SteinerC'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirSteinerC'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Vrush_Muteki'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirSteinerA'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Rstorm'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Gsaiyaman'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Jrush'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
    registerMove: s32'CmnNeutral'
    registerMove: s32'CmnStandForce'
    registerMove: s32'CmnFWalk'

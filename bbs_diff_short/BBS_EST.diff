@@ -1,90 +1,90 @@
-635,723d634
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Rage_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirEarth_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Throw'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirEarth_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Rage_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirEarth_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Rage_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirEarth_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Eraser_DBS'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Gcharge'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Gimpact'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Blaster'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Blaster'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Groar'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
+634a635,723
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Rage_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirEarth_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Throw'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirEarth_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Rage_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirEarth_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Rage_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirEarth_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Eraser_DBS'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Gcharge'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Gimpact'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Blaster'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Blaster'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Groar'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 

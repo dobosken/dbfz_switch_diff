@@ -1,6 +1,6 @@
---- SWITCH/BBS_AVP.bbs	2022-12-13 02:28:29.000000000 +0100
-+++ PC/BBS_AVP.bbs	2022-09-22 21:50:56.000000000 +0200
-@@ -1,9823 +1,9722 @@
+--- PC/BBS_AVP.bbs	2022-09-22 21:50:56.000000000 +0200
++++ SWITCH/BBS_AVP.bbs	2022-12-13 02:28:29.000000000 +0100
+@@ -1,9722 +1,9823 @@
  beginSubroutine: s32'PreInit'
    charaName: s16'avp'
    endSubroutine: 
@@ -1286,107 +1286,107 @@
      SkillRecipe_eKey: 16, 3
      SkillRecipe_eKey: 0, 85
      endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Acceldrive_A'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirSecondgear_A'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Redrive_B'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirFakegear_B'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Acceldrive_B'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirSecondgear_B'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Acceldrive_C'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirSecondgear_C'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Charge'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Powerblitz'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirAirtrickB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Endgame'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Barrier_Ultimate_Land'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Barrier_Ultimate'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Bakuretsuzan'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirBakuretsuzan'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Acceldrive_A'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirSecondgear_A'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Redrive_B'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirFakegear_B'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Acceldrive_B'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirSecondgear_B'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Acceldrive_C'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirSecondgear_C'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Charge'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Powerblitz'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirAirtrickB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Endgame'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Barrier_Ultimate_Land'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Barrier_Ultimate'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Bakuretsuzan'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirBakuretsuzan'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
    registerMove: s32'CmnNeutral'
    registerMove: s32'CmnStandForce'
    registerMove: s32'CmnFWalk'
@@ -4389,8 +4389,8 @@
        jumpToLabel: s32'atk'
        endIf: 
      endUpon: 
--  checkInput: 313
-+  checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-  checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++  checkInput: 313
    if: (VARIABLE), (Result)
      storeValue: (VARIABLE), 45, (STATIC), 1
      endIf: 
@@ -4402,8 +4402,8 @@
    clearRegisteredUponCode: (FRAME_STEP)
    sprite: s32'avp400_08', 1
    if: (VARIABLE), 45
--    checkInput: 313
-+    checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-    checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++    checkInput: 313
      if: (VARIABLE), (Result)
        jumpToLabel: s32'brake'
        endIf: 
@@ -4496,8 +4496,8 @@
        createParticle: s32'bg_dash_default', (PLAYER_LAND)
        endIf: 
      endUpon: 
--  checkInput: 313
-+  checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-  checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++  checkInput: 313
    if: (VARIABLE), (Result)
      storeValue: (VARIABLE), 45, (STATIC), 1
      endIf: 
@@ -4541,8 +4541,8 @@
    sprite: s32'avp400_07', 1
    horizontalMomentum: 80
    if: (VARIABLE), 45
--    checkInput: 313
-+    checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-    checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++    checkInput: 313
      if: (VARIABLE), (Result)
        jumpToLabel: s32'brake'
        endIf: 
@@ -4720,8 +4720,8 @@
        jumpToLabel: s32'atk'
        endIf: 
      endUpon: 
--  checkInput: 313
-+  checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-  checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++  checkInput: 313
    if: (VARIABLE), (Result)
      storeValue: (VARIABLE), 45, (STATIC), 1
      endIf: 
@@ -4734,8 +4734,8 @@
    clearRegisteredUponCode: (FRAME_STEP)
    sprite: s32'avp400_08', 1
    if: (VARIABLE), 45
--    checkInput: 313
-+    checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-    checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++    checkInput: 313
      if: (VARIABLE), (Result)
        jumpToLabel: s32'brake'
        endIf: 
@@ -4849,8 +4849,8 @@
        createParticle: s32'bg_dash_default', (PLAYER_LAND)
        endIf: 
      endUpon: 
--  checkInput: 313
-+  checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-  checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++  checkInput: 313
    if: (VARIABLE), (Result)
      storeValue: (VARIABLE), 45, (STATIC), 1
      endIf: 
@@ -4892,8 +4892,8 @@
    sprite: s32'avp400_07', 1
    horizontalMomentum: 80
    if: (VARIABLE), 45
--    checkInput: 313
-+    checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-    checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++    checkInput: 313
      if: (VARIABLE), (Result)
        jumpToLabel: s32'brake'
        endIf: 

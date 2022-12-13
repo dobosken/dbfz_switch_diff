@@ -1,119 +1,119 @@
 227c227
-<     moveInput: 306
+<     moveInput: 300
 ---
->     moveInput: 300
+>     moveInput: 306
 229c229
-<     moveInput: 306
+<     moveInput: 300
 ---
->     moveInput: 300
-671,772d670
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Enbu_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirKankaku_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Kankaku_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Ken_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Ken_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Kankaku_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Kankaku_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Ken_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Atusa'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirKamehameha214_MGS'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Touki'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirTouki'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Mitibiki'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirMitibiki'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Issen'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirIssen'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-1107c1005
-<       moveInput: 306
+>     moveInput: 306
+670a671,772
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Enbu_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirKankaku_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Kankaku_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Ken_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Ken_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Kankaku_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Kankaku_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Ken_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Atusa'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirKamehameha214_MGS'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Touki'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirTouki'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Mitibiki'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirMitibiki'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Issen'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirIssen'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+1005c1107
+<       moveInput: 300
 ---
->       moveInput: 300
-1109c1007
-<       moveInput: 306
+>       moveInput: 306
+1007c1109
+<       moveInput: 300
 ---
->       moveInput: 300
+>       moveInput: 306

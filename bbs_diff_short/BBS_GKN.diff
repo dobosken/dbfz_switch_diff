@@ -1,137 +1,137 @@
-753,888d752
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Heavyelbow_GKN_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirHeavyelbow_GKN_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Backthrow_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirKamehameha_GKN'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Heavyelbow_GKN_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirHeavyelbow_GKN_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Heavyelbow_GKN_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirHeavyelbow_GKN_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Genkidama_pre'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Genkidama'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirKamehameha_GKN'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Kaioken'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Kaioken_AB'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'K3_Kamehameha'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'K20_Kamehameha'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Kaioken'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Kaioken_AB'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'K3_Kamehameha'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'K20_Kamehameha'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'S_Genkidama'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirS_Genkidama'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
+752a753,888
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Heavyelbow_GKN_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirHeavyelbow_GKN_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Backthrow_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirKamehameha_GKN'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Heavyelbow_GKN_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirHeavyelbow_GKN_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Heavyelbow_GKN_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirHeavyelbow_GKN_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Genkidama_pre'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Genkidama'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirKamehameha_GKN'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Kaioken'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Kaioken_AB'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'K3_Kamehameha'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'K20_Kamehameha'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Kaioken'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Kaioken_AB'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'K3_Kamehameha'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'K20_Kamehameha'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'S_Genkidama'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirS_Genkidama'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 

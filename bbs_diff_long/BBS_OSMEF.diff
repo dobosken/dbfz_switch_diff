@@ -1,5 +1,5 @@
---- SWITCH/BBS_OSMEF.bbs	2022-12-13 02:28:35.000000000 +0100
-+++ PC/BBS_OSMEF.bbs	2022-09-22 21:51:02.000000000 +0200
+--- PC/BBS_OSMEF.bbs	2022-09-22 21:51:02.000000000 +0200
++++ SWITCH/BBS_OSMEF.bbs	2022-12-13 02:28:35.000000000 +0100
 @@ -1,4037 +1,4037 @@
  beginState: s32'dmy'
    sprite: s32'null', 1
@@ -1572,8 +1572,8 @@
          deactivateObjectById: (SELF)
          endIf: 
        ifNot: (VARIABLE), 45
--        checkInput: 313
-+        checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+-        checkInput: (INPUT_HOLD_ANY_OF_LMHS)
++        checkInput: 313
          ifNot: (VARIABLE), (Result)
            if: (VARIABLE), 46
              MoveCamera_BasePosObject: s32'AssistAttack2'

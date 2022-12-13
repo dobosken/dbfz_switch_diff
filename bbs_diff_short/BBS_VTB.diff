@@ -1,107 +1,107 @@
 441c441
-<     moveInput: 313
+<     moveInput: (INPUT_HOLD_ANY_OF_LMHS)
 ---
->     moveInput: (INPUT_HOLD_ANY_OF_LMHS)
-558,659d557
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Spiralheelshoot_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirSpiralheelshoot_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Atomicbuster_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirAtomicbuster_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Spiralheelshoot_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirSpiralheelshoot_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Spiralheelshoot_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirSpiralheelshoot_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Barrier'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirSplitfingershot'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Spiritsexcalibur'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Omegafinishblow'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Spiritsexcalibur'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Omegafinishblow'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'FinalKamehameha'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirFinalKamehameha'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
+>     moveInput: 313
+557a558,659
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Spiralheelshoot_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirSpiralheelshoot_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Atomicbuster_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirAtomicbuster_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Spiralheelshoot_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirSpiralheelshoot_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Spiralheelshoot_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirSpiralheelshoot_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Barrier'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirSplitfingershot'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Spiritsexcalibur'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Omegafinishblow'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Spiritsexcalibur'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Omegafinishblow'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'FinalKamehameha'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirFinalKamehameha'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)

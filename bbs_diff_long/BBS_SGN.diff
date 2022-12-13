@@ -1,6 +1,6 @@
---- SWITCH/BBS_SGN.bbs	2022-12-13 02:28:35.000000000 +0100
-+++ PC/BBS_SGN.bbs	2022-09-22 21:51:02.000000000 +0200
-@@ -1,10445 +1,10349 @@
+--- PC/BBS_SGN.bbs	2022-09-22 21:51:02.000000000 +0200
++++ SWITCH/BBS_SGN.bbs	2022-12-13 02:28:35.000000000 +0100
+@@ -1,10349 +1,10445 @@
  beginSubroutine: s32'PreInit'
    charaName: s16'sgn'
    endSubroutine: 
@@ -686,102 +686,102 @@
      SkillRecipe_eKey: 66, 10
      SkillRecipe_eKey: 0, 90
      endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RyurengekiA'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirRyurengekiA'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RyusensyoB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirRyusensyoB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RyurengekiB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirRyurengekiB'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RyurengekiC'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirRyurengekiC'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'SGN_Kamehameha'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Gyaku_Kamehameha'
--    Unknown1451: 3
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'SGN_S_Kamehameha'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'SU_Genkidama'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirSU_Genkidama'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Ryuken'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirRyuken'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RyurengekiA'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirRyurengekiA'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RyusensyoB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirRyusensyoB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RyurengekiB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirRyurengekiB'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RyurengekiC'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirRyurengekiC'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'SGN_Kamehameha'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Gyaku_Kamehameha'
++    Unknown1451: 3
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'SGN_S_Kamehameha'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'SU_Genkidama'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirSU_Genkidama'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Ryuken'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirRyuken'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
    registerMove: s32'CmnNeutral'
    registerMove: s32'CmnStandForce'
    registerMove: s32'CmnFWalk'

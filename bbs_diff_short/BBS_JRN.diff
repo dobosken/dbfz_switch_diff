@@ -1,83 +1,83 @@
-510,591d509
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Grand'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirJustice_A'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Justice_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirJustice_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Shock_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirJustice_B'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Shock_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirJustice_C'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'Counter'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_KI)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'HPSlash'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'AirHPSlash'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_L)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'HPUpper'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_M)
-<     endMove: 
-<   SkillBeginReWriteMode: 1
-<   addMove: s32'ExEnd'
-<     moveInput: (INPUT_BOOLEAN_OR)
-<     moveInput: 301
-<     moveInput: 304
-<     moveInput: (INPUT_PRESS_H)
-<     endMove: 
+509a510,591
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Grand'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirJustice_A'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Justice_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirJustice_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Shock_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirJustice_B'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Shock_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirJustice_C'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'Counter'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_KI)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'HPSlash'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'AirHPSlash'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_L)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'HPUpper'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_M)
+>     endMove: 
+>   SkillBeginReWriteMode: 1
+>   addMove: s32'ExEnd'
+>     moveInput: (INPUT_BOOLEAN_OR)
+>     moveInput: 301
+>     moveInput: 304
+>     moveInput: (INPUT_PRESS_H)
+>     endMove: 

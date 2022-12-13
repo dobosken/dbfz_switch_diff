@@ -1,6 +1,6 @@
---- SWITCH/BBS_CMNEF.bbs	2022-12-13 02:28:30.000000000 +0100
-+++ PC/BBS_CMNEF.bbs	2022-09-22 21:50:58.000000000 +0200
-@@ -1,6010 +1,5886 @@
+--- PC/BBS_CMNEF.bbs	2022-09-22 21:50:58.000000000 +0200
++++ SWITCH/BBS_CMNEF.bbs	2022-12-13 02:28:30.000000000 +0100
+@@ -1,5886 +1,6010 @@
  beginState: s32'cmn_Dummy'
    sprite: s32'null', 2147483647
    endState: 
@@ -219,8 +219,8 @@
      moveInput: 293
      moveInput: (INPUT_BOOLEAN_OR)
      moveInput: 295
--    moveInput: (INPUT_HOLD_ANY_OF_LMHS)
-+    moveInput: 301
+-    moveInput: 301
++    moveInput: (INPUT_HOLD_ANY_OF_LMHS)
      addMoveFlag: 135
      addMoveFlag: 133
      SkillFunctionGroupPriority: 0, 100
@@ -235,8 +235,8 @@
      moveInput: 294
      moveInput: (INPUT_BOOLEAN_OR)
      moveInput: 296
--    moveInput: (INPUT_HOLD_ANY_OF_LMHS)
-+    moveInput: 301
+-    moveInput: 301
++    moveInput: (INPUT_HOLD_ANY_OF_LMHS)
      addMoveFlag: 135
      addMoveFlag: 134
      SkillFunctionGroupPriority: 1, 100
@@ -502,130 +502,130 @@
      SkillEstTagNoCombo: 
      SkillEstLevelLimit: 80
      endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'CmnActRushStart'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_6)
--    moveInput: 301
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestChangeMember1'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_HOLD_M)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestChangeMember2'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_HOLD_H)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestChangeMemberUltimate1_1'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_ANY_FORWARD)
--    moveInput: (INPUT_PRESS_L)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestChangeMemberUltimate1_2'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_ANY_FORWARD)
--    moveInput: (INPUT_PRESS_M)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestChangeMemberUltimate2_1'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_ANY_FORWARD)
--    moveInput: (INPUT_PRESS_KI)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestChangeMemberUltimate2_2'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_ANY_FORWARD)
--    moveInput: (INPUT_PRESS_H)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestAssistAttack1'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_PRESS_L)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestAssistAttack2'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_PRESS_KI)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'CmnActHomingDash'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_6)
--    moveInput: 304
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'CmnActGuardCancelAttack'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_PRESS_M)
--    moveInput: 301
--    moveInput: 305
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_PRESS_H)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestGuardCancelChangeMember1'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_PRESS_M)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestGuardCancelChangeMember2'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_PRESS_H)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestSPChangeMember1'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_HOLD_M)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'RequestSPChangeMember2'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_HOLD_H)
--    moveInput: 301
--    moveInput: 305
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Rush_B'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_6)
--    moveInput: 301
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'CmnActSparkingBurst'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_PRESS_KI)
--    moveInput: 301
--    moveInput: 304
--    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'CmnActRushStart'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_6)
++    moveInput: 301
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestChangeMember1'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_HOLD_M)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestChangeMember2'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_HOLD_H)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestChangeMemberUltimate1_1'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_ANY_FORWARD)
++    moveInput: (INPUT_PRESS_L)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestChangeMemberUltimate1_2'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_ANY_FORWARD)
++    moveInput: (INPUT_PRESS_M)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestChangeMemberUltimate2_1'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_ANY_FORWARD)
++    moveInput: (INPUT_PRESS_KI)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestChangeMemberUltimate2_2'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_ANY_FORWARD)
++    moveInput: (INPUT_PRESS_H)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestAssistAttack1'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_PRESS_L)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestAssistAttack2'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_PRESS_KI)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'CmnActHomingDash'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_6)
++    moveInput: 304
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'CmnActGuardCancelAttack'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_PRESS_M)
++    moveInput: 301
++    moveInput: 305
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_PRESS_H)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestGuardCancelChangeMember1'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_PRESS_M)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestGuardCancelChangeMember2'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_PRESS_H)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestSPChangeMember1'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_HOLD_M)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'RequestSPChangeMember2'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_HOLD_H)
++    moveInput: 301
++    moveInput: 305
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Rush_B'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_6)
++    moveInput: 301
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'CmnActSparkingBurst'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_PRESS_KI)
++    moveInput: 301
++    moveInput: 304
++    endMove: 
    endSubroutine: 
  
  beginSubroutine: s32'cmn_RoundInit'

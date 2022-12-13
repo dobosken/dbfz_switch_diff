@@ -1,89 +1,89 @@
-543,630d542
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'MSpunch_A'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_L)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirGSRkick_A'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_L)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'Gdonut'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_M)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'DeathMissile'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_M)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'MSpunch_B'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirGSRkick_B'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'MSpunch_C'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirGSRkick_C'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'Revengeshout'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_KI)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'Revengeshout'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_KI)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'SGKA_AB'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_L)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'SGKA_CD'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_M)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'VolleyBall'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirVolleyBall'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
+542a543,630
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'MSpunch_A'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_L)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirGSRkick_A'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_L)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'Gdonut'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_M)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'DeathMissile'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_M)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'MSpunch_B'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirGSRkick_B'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'MSpunch_C'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirGSRkick_C'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'Revengeshout'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_KI)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'Revengeshout'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_KI)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'SGKA_AB'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_L)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'SGKA_CD'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_M)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'VolleyBall'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirVolleyBall'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 

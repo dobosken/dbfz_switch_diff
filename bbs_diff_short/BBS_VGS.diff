@@ -1,103 +1,103 @@
-545,646d544
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'SuperDashKick_A'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_L)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirSuperDashKick_A'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_L)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'CrusherKneeKick_B'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_M)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirCrusherKneeKick_B'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_M)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'SuperDashKick_B'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirSuperDashKick_B'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'SuperDashKick_C'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirSuperDashKick_C'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'MultiEnergyShot'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_KI)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirMultiEnergyShot'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_KI)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'BigBangAttack'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_L)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'BigBangAttack_Air_Yoko'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_L)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'BigBangAttack'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_M)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'BigBangAttack_Air_Shita'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_M)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'FinalFlash'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
-<     SkillBeginReWriteMode: 1
-<     addMove: s32'AirFinalFlash'
-<       moveInput: (INPUT_BOOLEAN_OR)
-<       moveInput: 301
-<       moveInput: 304
-<       moveInput: (INPUT_PRESS_H)
-<       endMove: 
+544a545,646
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'SuperDashKick_A'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_L)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirSuperDashKick_A'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_L)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'CrusherKneeKick_B'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_M)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirCrusherKneeKick_B'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_M)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'SuperDashKick_B'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirSuperDashKick_B'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'SuperDashKick_C'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirSuperDashKick_C'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'MultiEnergyShot'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_KI)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirMultiEnergyShot'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_KI)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'BigBangAttack'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_L)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'BigBangAttack_Air_Yoko'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_L)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'BigBangAttack'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_M)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'BigBangAttack_Air_Shita'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_M)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'FinalFlash'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 
+>     SkillBeginReWriteMode: 1
+>     addMove: s32'AirFinalFlash'
+>       moveInput: (INPUT_BOOLEAN_OR)
+>       moveInput: 301
+>       moveInput: 304
+>       moveInput: (INPUT_PRESS_H)
+>       endMove: 

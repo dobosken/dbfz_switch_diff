@@ -1,6 +1,6 @@
---- SWITCH/BBS_MTN.bbs	2022-12-13 02:28:34.000000000 +0100
-+++ PC/BBS_MTN.bbs	2022-09-22 21:51:01.000000000 +0200
-@@ -1,11032 +1,10945 @@
+--- PC/BBS_MTN.bbs	2022-09-22 21:51:01.000000000 +0200
++++ SWITCH/BBS_MTN.bbs	2022-12-13 02:28:34.000000000 +0100
+@@ -1,10945 +1,11032 @@
  beginSubroutine: s32'PreInit'
    charaName: s16'mtn'
    endSubroutine: 
@@ -788,8 +788,8 @@
    addMove: s32'Roshi_Exe_Add'
      moveType: (OVERDRIVE)
      characterState: (STANDING)
--    moveInput: 313
-+    moveInput: (INPUT_HOLD_ANY_OF_LMHS)
+-    moveInput: (INPUT_HOLD_ANY_OF_LMHS)
++    moveInput: 313
      addMoveFlag: (ONE)
      isFollowupMove: 1
      SkillEstPoint: 0
@@ -947,93 +947,93 @@
      SkillRecipe_eWait: 0, 120
      SkillRecipe_eKey: 16, 200
      endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Homing'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_6)
--    moveInput: 304
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'MTN_AirHoming6'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: (INPUT_6)
--    moveInput: 304
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Kamehameha_MTN'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirKeiken_A'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Bankoku'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirKeiken_B'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Sensi_B'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirKeiken_B'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Sensi_C'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'AirKeiken_C'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Yoiko'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 304
--    moveInput: (INPUT_PRESS_KI)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Mafuuba'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_L)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'Roshi'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_M)
--    endMove: 
--  SkillBeginReWriteMode: 1
--  addMove: s32'SSKamehameha'
--    moveInput: (INPUT_BOOLEAN_OR)
--    moveInput: 301
--    moveInput: 304
--    moveInput: (INPUT_PRESS_H)
--    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Homing'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_6)
++    moveInput: 304
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'MTN_AirHoming6'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: (INPUT_6)
++    moveInput: 304
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Kamehameha_MTN'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirKeiken_A'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Bankoku'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirKeiken_B'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Sensi_B'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirKeiken_B'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Sensi_C'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'AirKeiken_C'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Yoiko'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 304
++    moveInput: (INPUT_PRESS_KI)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Mafuuba'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_L)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'Roshi'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_M)
++    endMove: 
++  SkillBeginReWriteMode: 1
++  addMove: s32'SSKamehameha'
++    moveInput: (INPUT_BOOLEAN_OR)
++    moveInput: 301
++    moveInput: 304
++    moveInput: (INPUT_PRESS_H)
++    endMove: 
    registerMove: s32'CmnNeutral'
    registerMove: s32'CmnStandForce'
    registerMove: s32'CmnFWalk'
