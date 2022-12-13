@@ -1,0 +1,100 @@
+617,711d616
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Haikyuken_ReceiveA'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirHikakusyou_A'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Haikyuken_ReceiveB'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirHikakusyou_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Haikyuken_ReceiveB'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirHikakusyou_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Haikyuken_Nage'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirHikakusyou_C'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Chounouryoku'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirDodonpa'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Kikouho'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirKikouho'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'SayonaraTensan'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Sinkikouho'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirSinkikouho'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+6717c6622
+<     checkInput: 313
+---
+>     checkInput: (INPUT_HOLD_ANY_OF_LMHS)

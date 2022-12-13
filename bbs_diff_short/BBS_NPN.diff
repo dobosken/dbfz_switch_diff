@@ -1,0 +1,66 @@
+440,496d439
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Zannendattana'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'ArmBreak_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Saibamen_Plant_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Saibamen_Plant_C'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Pi'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirPi'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Kun'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Kun'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Kapa'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+4385c4328
+<     checkInput: 313
+---
+>     checkInput: (INPUT_HOLD_ANY_OF_LMHS)
+4588c4531
+<     checkInput: 313
+---
+>     checkInput: (INPUT_HOLD_ANY_OF_LMHS)

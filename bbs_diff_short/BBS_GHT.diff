@@ -1,0 +1,76 @@
+605,679d604
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Gorengeki_A1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Bukukyaku_A'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Gorengeki_B1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Bukukyaku_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Gorengeki_B1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Bukukyaku_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Gorengeki_C'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Bukukyaku_C'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Ryusyogeki_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Kamehameha'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Kamehameha'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Oyako_Kamehameha'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 

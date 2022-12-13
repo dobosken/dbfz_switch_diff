@@ -1,0 +1,84 @@
+568,650d567
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'DeathWave_A'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirDieThisTime'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'WarpSmash'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirDieThisTime'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'DeathWave_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'DeathWave_C'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'DeathSaucer'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirDieThisTime'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'DeathBall'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirDeathBall'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'GoldenFrieza'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'NovaStrike'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirNovaStrike'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 

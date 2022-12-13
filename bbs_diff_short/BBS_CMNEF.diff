@@ -1,0 +1,133 @@
+219c219
+<     moveInput: (INPUT_HOLD_ANY_OF_LMHS)
+---
+>     moveInput: 301
+234c234
+<     moveInput: (INPUT_HOLD_ANY_OF_LMHS)
+---
+>     moveInput: 301
+499,622d498
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'CmnActRushStart'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_6)
+<     moveInput: 301
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestChangeMember1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_HOLD_M)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestChangeMember2'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_HOLD_H)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestChangeMemberUltimate1_1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_ANY_FORWARD)
+<     moveInput: (INPUT_PRESS_L)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestChangeMemberUltimate1_2'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_ANY_FORWARD)
+<     moveInput: (INPUT_PRESS_M)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestChangeMemberUltimate2_1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_ANY_FORWARD)
+<     moveInput: (INPUT_PRESS_KI)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestChangeMemberUltimate2_2'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_ANY_FORWARD)
+<     moveInput: (INPUT_PRESS_H)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestAssistAttack1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_PRESS_L)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestAssistAttack2'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_PRESS_KI)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'CmnActHomingDash'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_6)
+<     moveInput: 304
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'CmnActGuardCancelAttack'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_PRESS_M)
+<     moveInput: 301
+<     moveInput: 305
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_PRESS_H)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestGuardCancelChangeMember1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_PRESS_M)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestGuardCancelChangeMember2'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_PRESS_H)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestSPChangeMember1'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_HOLD_M)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'RequestSPChangeMember2'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_HOLD_H)
+<     moveInput: 301
+<     moveInput: 305
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'Rush_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_6)
+<     moveInput: 301
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'CmnActSparkingBurst'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: (INPUT_PRESS_KI)
+<     moveInput: 301
+<     moveInput: 304

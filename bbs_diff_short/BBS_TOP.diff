@@ -1,0 +1,105 @@
+693,796d692
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'VSlicer_A'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirVVSlicer_A'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'MDH_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirSBarrier'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'VSlicer_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirVVSlicer_B'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'VSlicer_C'
+<     Unknown1451: 1
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirVVSlicer_C'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'FSwip'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirTCut'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_KI)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'ARBall'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'AirARBall'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_L)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'FEnergy'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'ADodge'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_M)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'ARush'
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 
+<   SkillBeginReWriteMode: 1
+<   addMove: s32'EFullCourse'
+<     Unknown1451: 3
+<     moveInput: (INPUT_BOOLEAN_OR)
+<     moveInput: 301
+<     moveInput: 304
+<     moveInput: (INPUT_PRESS_H)
+<     endMove: 

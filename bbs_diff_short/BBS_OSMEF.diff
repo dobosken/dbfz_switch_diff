@@ -1,0 +1,4 @@
+1572c1572
+<         checkInput: 313
+---
+>         checkInput: (INPUT_HOLD_ANY_OF_LMHS)
